@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Szerepjáték Rajongói Oldal - Kezdőlap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="scripts/styleswitcher.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/alap.css" title="normal">
+	<link rel="alternate stylesheet" type="text/css" href="css/nagy.css" title="nagybetus">
+    <link rel="icon" href="media/d20_favicon.png">
+
+  </head>
+  
+  <body>
+    <nav class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+  
+    <header>
+        <h1>
+            Szerepjáték Rajongói Oldal - Kezdőlap
+        </h1>
+        <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+            <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+        </nav>
+        <nav id="lapmenu">
+            <ul>
+                <li class="current"><a href="index.html"><span class="ikon"></span><b>Kezdőlap</b></a></li>
+                <li><a href="kedvenc.html"><span class="ikon"></span>Kedvenc szerepjátékaim</a></li>
+                <li><a href="hasznos.html"><span class="ikon"></span>Hasznos linkek</a></li>
+                <li><a href="urlap.html"><span class="ikon"></span>Új link bejegyzése űrlap</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Tartalom -->
+    <main id="tartalom">
+        <!--BEVEZETŐ -->
+        <article id="bevezeto">
+            <h2>Bevezető</h2>
+            <figure>
+                <a href="media/Dragon.jpg" title="A Fehér sárkány című kép megtekintése nagyobb változatban">
+                    <img src="media/Dragon_kicsi.jpg" alt="Fehér sárkány">
+                </a>
+            </figure>
+            <aside>
+                <nav id="oldalmenu">
+                    <ul>
+                        <li><a href="#tortenelem">Szerepjáték kialakulása</a></li>
+                        <li><a href="#kockak">Dobókockák</a></li>
+                        <li><a href="#ujdonsagok">Újdonságok</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <p>
+                Kedves látogató, az oldalon kedvcsináló gondolatokat, információkat olvashatsz a népszerű hobbi - a <strong>Szerepjáték</strong> témájában. Jó olvasgatást!
+            <p>
+        </article>
+        <!--Bevezető VÉGE -->
+        <hr class="solid">
+        <!--Történelem -->
+        <article id="tortenelem">
+            <h2>A szerepjáték kialakulása</h2>              
+            <p>
+                A szerepjátékok előfutárának is felfogható harci játékok egészen az ókorig nyúlnak vissza. A különböző ütközetek vér nélküli modellezése szinte egy idős magával a hadviselés művészetével, de a szerepjátékok szempontjából az első említésre érdemes név <strong>G. Wellsé</strong>, aki 1915-ben kiadta a Kis háborúk (<span lang="en"><i>Little Wars</i></span>) című könyvét. Ezzel az amatőrök számára is elérhetővé váltak a harci játékok. Az első, kereskedelmi forgalomban is kapható táblás harci játék Charles Roberts nevéhez fűződik, aki ezt 1953-ban jelentette meg. Szintén az ő nevéhez fűződik az <span lang="en"><strong>Avalon-Hill Game Company</strong></span> megalapítása, ami ma a világ egyik legnagyobb játéktervező és -gyártó cége. A harci játékok népszerűsége a XX. század hatvanas, hetvenes éveiben érte el csúcspontját.
+            </p>               
+            <figure>
+                <a href="media/Gary_Gygax.jpg" title="A Gary Gygax-ról készült kép megtekintése nagyobb változatban">
+                    <img src="media/Gary_Gygax_kicsi.jpg" alt="Gary Gygax">
+                </a>
+                <figcaption class="figure-caption">Gary Gygax (előkép normál kicsinyítéssel)</figcaption>
+            </figure>
+            <p>
+                Talán az egyik legfontosabb része a szerepjáték kialakulásának az 1960-as évek végén kezdődött, amikor is <strong>Gary Gygax</strong> találkozott <strong>Jeff Perrennel</strong>, <span lang="en">Wisconsin Lake Geneva</span> nevű kisvárosának helyi klubjában a <span lang="en"><i>The Lake Geneva Tactical Studies Association</i></span>-ben. Jeff Perren már rendelkezett egy rövidebb szabályrendszerrel középkori harci figurákhoz. Az engedélyével Gary Gygax kibővítette a szabályokat, ami <span lang="en"><abbr title="Lake Geneva Tactical Studies Association"><i>LGTSA</i></abbr> <i>Medieval Military Miniatures Rules</i></span> címen megjelent az <span lang="en"><i>International Federation of Wargamers</i></span> havilapjában. Később a szabályokat továbbfejlesztette és fantasy elemeket is beemelt a játékba. Ez a változat <span lang="en"><strong>Chainmail</strong></span> címen jelent meg 1971-ben a <span lang="en"><strong>Guidon Games</strong></span> kiadásában.
+            </p>
+            <figure>
+                <a href="media/Dave_Arneson.jpg" title="A Dave Arneson-ról készült kép megtekintése nagyobb változatban">
+                    <img src="media/Dave_Arneson_kicsi.jpg" alt="Dave Arneson">
+                </a>
+                <figcaption class="figure-caption">Dave Arneson (előkép normál kicsinyítéssel)</figcaption>
+            </figure>                
+            <p>
+                <strong>Dave Arneson</strong> a következő név, akit meg kell említeni. Ő már egy ideje kísérletezett a <span lang="en">Chainmail</span> szabályrendszerével és némileg próbálta átalakítani. Levelezés, majd egy Gen Conon történt személyes találkozó után megkezdődött a kisebb csapatoknak szóló játék kialakítása. A szabályok kidolgozása Gary Gygaxre hárult, de Dave Arnesonnak és a témával szintén foglalkozó Dave Megarynek is határozott ötletei voltak. 1970-71 környékén vette kezdetét a Dave Arneson által vezetett <span lang="en"><strong>Blackmoore</strong></span> várbörötön-kampány, ahol a szokásos európai hadszíntereket felváltotta egy képzeletbeli vár kazamatáinak bejárása. Jellegét tekintve ez nagy előrelépést jelentett a mai szerepjátékok irányába. A Gary Gygax által összeállított első 50 oldalas vázlat 1972 telén került az <span lang="en">International Federation of Wargaming</span> körének tagjaihoz tesztelésre, amit Lake Geneva játékosai még tovább teszteltek. A visszajelzések alapján Gary Gygax 150 oldalra bővítette a játékot. Lényegében ez volt az az anyag, ami 1974-ben a <span lang="en">Chainmail</span> utódjaként <span lang="en"><strong>Dungeons & Dragons</strong></span> címen, mint a világ első szerepjátéka megjelent. Kétségtelen, hogy az első szerepjáték megalkotásában mind Gary Gygaxnek, mind Dave Arnesonnak is kimagasló szerep jutott.
+                </p>
+            <p>
+                Az 1974-es Gen Conon napvilágot látott <span lang="en">Dungeons & Dragons</span>, röviden <span lang="en">D&D</span>, egy olyan típusú figurás harci társasjátékhoz tartalmazott szabályokat, ahol egy kis méretű csapat járhat be egy terepet különböző, a játékvezető által meghatározott akadályokba, ellenségekbe ütközve, miközben kincseket keresnek. A játék egy három kötetet tartalmazó dobozból állt. Taktikai jellegét jellemzi, hogy bajnokságokat rendeztek, ahol kizárólag a sikeresség, hatékonyság volt mérvadó.
+            </p>
+            <p>
+                Ezután számos szerző jelentetett meg különböző orgánumokban (a <span lang="en"><i>The Dragon</i></span> magazinban, a <span lang="en"><i>Polyhedron</i></span> magazinban, kiegészítő szabályok <span lang="en"><i>Arduin Grimoire</i></span>-ral kezdődő sorában, nyomtatásban kiadott kalandok formájában) szabálymódosításokat, -pontosításokat és -kiegészítéseket, valamint számos újabb <span lang="en"><abbr title="Dungeons and Dragons">D&D</abbr></span> kiadás is napvilágot látott. A szabály szövegeinek decentralizáltsága miatt nem voltak általánosan elfogadott szabályok, mindenki csak olyan szabályok alapján játszott, amit ismert - elképzelhető volt, hogy két <span lang="en">D&D</span>-ző csapat egyáltalán nem ismert közös forrást.
+            </p>
+            <p>
+                1977-ben a <strong>TSR</strong> kiadásában jelent meg az <span lang="en"><strong>Advanced Dungeons & Dragons</strong></span> (röviden <span lang="en">AD&D</span>) és egy újabb, <span lang="en">Dungeons & Dragons</span> címmel rendelkező játék (a változat közismert neve <span lang="en">Basic <abbr title="Dungeons and Dragons">D&D</abbr></span>), utóbbi egy sorozat első kiadványa volt, amely a kezdő játékosokat zárkóztatta fel az <span lang="en"><abbr title="Advanced Dungeons and Dragons">AD&D</abbr></span>-hez. Ezek megjelenésekor már piacon voltak a versenytársak is (például <span lang="en">Tunnels & Trolls, RuneQuest, DragonQuest, Traveller, The Fantasy Trip</span>), és ekkorra már fokozatosan kialakultak a maihoz hasonló szerepjátszási szokások is. 
+            </p>
+            <p>
+                A szerepjátékból később több módosult változat jött létre, különösképp az élő szerepjáték (<span lang="en">live action role-playing game, <strong>LARP</strong></span>), a gyűjtögetős kártyajáték (<span lang="en">collectible card game, <strong>CCG</strong></span>) vagy a számítógépes szerepjáték (<span lang="en">computer role-playing game, <strong>CRPG</strong></span>), amelyekkel nem összekeverendő a szerepjáték eredeti formája. Ezeket a játéktípusokat éles határok választják el egymástól mind behatároltságukban, mind szabályaikban, mind egyéb jellemzőikben. Például a számítógépes változat a programozók által megszabott korlátokon belül mozog, de a szerepjáték eredeti változatának csak a fantázia szab határt.
+            </p>
+            <p>
+                <i>Forrás</i> - <a href="//hu.wikipedia.org/wiki/Asztali_szerepj%C3%A1t%C3%A9k"><i>Wikipedia - Asztali szerepjátékok</i></a>
+            </p>
+        </article>
+        <nav><a href="#oldalmenu">Ugrás a menühöz</a></nav>
+        <!--Történelem VÉGE -->
+        <hr class="solid">
+        <!--Dobókockák -->
+        <article id="kockak">
+            <h2>
+                Milyen kockákat használhatsz a játékban?
+            </h2>
+            <table>
+                <caption>
+                    <strong>Gyakran használt dobókockák</strong>
+                    <details>
+                        <summary>Súgó</summary>
+                        <p>A táblázatban a dobókockák nevét, képét és eredményhalmazát ábrázoltuk.</p>
+                    </details>
+                </caption>
+                <tr>
+                    <th>Kocka (D - <span lang="en">Dice</span>)</th>
+                    <th>Kép</th>
+                    <th>Eredményhalmaz</th>
+                  </tr>
+                  <tr>
+                    <td>D4</td>
+                    <td><img src="media/d4.png" alt="4 oldalú dobókocka képe"></td>
+                    <td>1-4</td>
+                  </tr>
+                  <tr>
+                    <td>D6</td>
+                    <td><img src="media/d6.png" alt="6 oldalú dobókocka képe"></td>
+                    <td>1-6</td>
+                  </tr>                 
+                  <tr>
+                    <td>D8</td>
+                    <td><img src="media/d8.png" alt="8 oldalú dobókocka képe"></td>
+                    <td>1-8</td>
+                  </tr>
+                  <tr>
+                    <td>D10</td>
+                    <td><img src="media/d10.png" alt="10 oldalú dobókocka képe"></td>
+                    <td>1-10</td>
+                  </tr>
+                  <tr>
+                    <td>D12</td>
+                    <td><img src="media/d12.png" alt="12 oldalú dobókocka képe"></td>
+                    <td>1-12</td>
+                  </tr>
+                  <tr>
+                    <td>D20</td>
+                    <td><img src="media/d20.png" alt="20 oldalú dobókocka képe"></td>
+                    <td>1-20</td>
+                  </tr>
+            </table>
+        </article>
+        <!--Dobókockák VÉGE-->
+        <nav><a href="#oldalmenu">Ugrás a menühöz</a></nav>
+        <hr class="solid">
+        <!--Újdonságok -->
+        <article id="ujdonsagok">
+            <h2> Újdonságok</h2>
+            <section>
+                <h3>Új <span lang="en">D&D</span> film a láthatáron! - <span lang="en">Dungeons and Dragons</span>: Betyárbecsület</h3>
+                    <video src="media/dnd_betyarbecsulet.mp4" title="Dungeons &amp; Dragons: Betyárbecsület - új, magyar nyelvű előzetes" controls poster="media/dnd_betyarbecsulet.png"></video> 
+                    <p>
+                        <a href="betyarbecsulet_trailer_leiras.html">A video teljes szövegű leírása</a><br>
+                    <q>
+                    Egy sármos tolvaj és különc kalandorokból álló bandája nagyszabású akciót terveznek egy elveszett ereklye megszerzéséért, de a dolgok veszélyesen kisiklanak, amikor a rossz emberekkel húznak ujjat…<br>
+                    A <span lang="en">Dungeons and Dragons</span>: Betyárbecsület a legendás szerepjáték gazdag világát és játékos szellemét ülteti át a mozivászonra ezzel a fergeteges és akciódús kalandfilmmel.</q><br>
+                    <strong>Bemutató dátuma: 2023. március 30.</strong><br>
+                    <i>Forgalmazó: <span lang="en">UIP-Duna Film</span></i>
+                    </p>
+            </section>            
+        </article>
+        <!--Újdonságok VÉGE -->
+        <nav><a href="#oldalmenu">Ugrás a menühöz</a></nav>
+    </main>
+    <!--Tartalom VÉGE -->
+    <footer>
+		<div class="row">
+			<div class="col-12 text-center">
+				<address>
+					<p>Készítette: Gipsz Jakab <br>(<a
+							href="mailto:gipszjakab@mailinator.com"><b>gipszjakab@mailinator.com</b></a>)<br>
+						1117 Budapest, Nevenincs u. 17</p>
+				</address>
+			</div>
+		</div>
+	</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
